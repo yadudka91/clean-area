@@ -1,0 +1,212 @@
+.mainCard {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.divTitle {
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 900;
+  color: #1aad46;
+  box-sizing: border-box;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.carouselCard {
+  flex: 1;
+  overflow: hidden;
+  opacity: 1;
+  pointer-events: none;
+  transform: scale(0.9);
+  border-radius: 50px;
+}
+
+.carouselCardActive {
+  transform: scale(1);
+  pointer-events: visible;
+  transition: 0.5s ease-in-out;
+  -webkit-box-shadow: 1px 6px 11px 1px rgba(112, 112, 112, 1);
+  -moz-box-shadow: 1px 6px 11px 1px rgba(112, 112, 112, 1);
+  box-shadow: 1px 6px 11px 1px rgba(112, 112, 112, 1);
+  border-radius: 50px;
+}
+
+.carouselArrowLeft,
+.carouselArrowRight {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.carouselArrowLeft {
+  left: 15px;
+}
+
+.carouselArrowRight {
+  right: 15px;
+}
+
+.Imgcarousel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.carouselPagination {
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  transform: translate(-51%, 0);
+  left: 50%;
+}
+.paginationDot:empty {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.paginationDotActiv:empty {
+  background-color: #1aad46;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.paginationDot:hover {
+  transform: scale(1.2);
+}
+
+.reviewsTitle {
+  text-align: start;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.cleanArea {
+  color: #1aad46;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.reviewsDiv {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 15px;
+}
+
+.reviewsBlock {
+  display: inline-flex;
+}
+
+.reviewsIcon {
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+}
+
+.reviewsText {
+  background-color: #1aad46;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.reviewsBlokImg {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  column-gap: 5px;
+  row-gap: 10px;
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .mainCard {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  }
+
+  .carouselCard {
+    border-radius: 0px;
+  }
+
+  .carouselCardActive {
+    border-radius: 0px;
+  }
+  .Imgcarousel {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainCard {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  }
+
+  .carouselCard {
+    border-radius: 0px;
+  }
+
+  .carouselCardActive {
+    border-radius: 0px;
+  }
+  .Imgcarousel {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 555px) {
+  .reviewsBlokImg {
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+}

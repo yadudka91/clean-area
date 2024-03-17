@@ -1,0 +1,22 @@
+import backgroundMain from "../../assets/images/backgroundImg2.png";
+import classes from "./Main.module.css";
+
+const Main = () => {
+  return (
+    <div className={classes.main}>
+      <img className={classes.backgroundImg} src={backgroundMain} alt="..." />
+
+      <div className={classes.cleanAreaTitle}>
+        <span className={classes.cleanAreaTitleSpan}>Clean area</span>
+      </div>
+      <div className={classes.cleanAreaText}>
+        <span className={classes.cleanAreaTextSpan}>
+          Надаємо повний спектр клінінгових послу <br />в місті Чернівці та
+          Чернівецькій області
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default Main;

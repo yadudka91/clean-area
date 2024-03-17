@@ -1,0 +1,102 @@
+.workCard {
+  height: auto;
+  width: auto;
+  margin-top: 50px;
+}
+
+.workTitle {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 900;
+  color: #1aad46;
+  box-sizing: border-box;
+}
+
+.workDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  column-gap: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.workIcon {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+}
+
+.workH {
+  text-align: center;
+}
+
+.workText {
+  text-align: center;
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .workDiv {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 100px;
+  }
+  .workIcon {
+    height: 250px;
+    width: 250px;
+  }
+
+  .workH {
+    text-align: center;
+    margin-top: -60px;
+  }
+}
+
+/* @media (max-width: 692px) {
+  .workDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .workIcon {
+    height: 130px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 613px) {
+  .workDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .workIcon {
+    height: 100px;
+    width: 100px;
+  }
+} */
+
+/* @media (max-width: 800px) {
+  .workDiv {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .workIcon {
+    height: 85px;
+    width: 85px;
+  }
+} */
+
+/* @media (max-width: 556px) {
+  .workDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .workIcon {
+    height: 150px;
+    width: 150px;
+  }
+ 
+} */

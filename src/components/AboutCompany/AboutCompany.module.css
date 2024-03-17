@@ -1,0 +1,21 @@
+.aboutCompanyBlock {
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.titleSpan {
+  color: #1aad46;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titleDiv {
+  color: black;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
