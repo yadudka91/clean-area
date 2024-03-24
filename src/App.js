@@ -18,7 +18,7 @@ function App(props) {
         onMobileMenu={props.onMobileMenu}
         onMobileMenu2={props.onMobileMenu2}
       />
-      <Main />
+      <Main state={props.state} />
       <AboutCompany />
       <Services state={props.state} onShowItem={props.onShowItem} />
       {props.state.showFullItem && (

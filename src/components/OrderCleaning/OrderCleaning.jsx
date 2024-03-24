@@ -3,8 +3,8 @@ import React from "react";
 
 const OrderCleaning = (props) => {
   return (
-    <div className={classes.orderCleaning}>
-      <p className={classes.orderCleaningTitle}>Замовити прибирання</p>
+    <div className={classes.orderCleaning} id="orderCleaning">
+      <p className={classes.orderCleaningTitle}>Залишити заявку</p>
       <div>
         <form
           className={classes.orderCleaningForm}

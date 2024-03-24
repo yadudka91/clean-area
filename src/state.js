@@ -52,7 +52,7 @@ import closeImg from "../src/assets/images/close2.png";
 import instagramIcon from "../src/assets/images/Instagram-Icon.png";
 import facebookIcon from "../src/assets/images/2021_Facebook_icon.svg.png";
 import logo from "../src/assets/images/noroot.png";
-
+import backgroundMain from "../src/assets/other/backgroundImg2.jpg";
 import { rerenderEntireTree } from "./render";
 
 const TELEGRAM_BOT_TOKEN = "7153986051:AAFNOCJEx5RNLUHNFImkBsG_rMMaWmXRh8g";
@@ -107,7 +107,7 @@ let store = {
         paragraph3: "Під час прибирання ванної кімнати:",
         text3: `- протираємо від пилу фасади меблів;\n- миємо ванну/душову кабіну (без застосування засобів від водного нальоту, каменю, плісняви), унітаз та біде;\n- миємо раковину, змішувачі та натираємо їх до блиску;\n- очищуємо дзеркало;\n- пилососимо килимок та миємо підлогу.\n\nПослугу з підтримуючого прибирання надаємо лише клієнтам в яких проводилося генеральне прибирання!`,
       },
-      price: `Вартість:\n- 1-кімнатна квартира до 45 м² - 1100 грн;\n- 2-кімнатна квартира до 60 м² - 1400 грн;\n- 3-кімнатна квартира до 75 м² - 1700 грн;\n- 4-кімнатна квартира до 100 м² - 2000 грн;\n- будинок, квартира понад 100 м² - за домовленістю, від  20 грн за 1 м².
+      price: `Вартість:\n- 1-кімнатна квартира до 45 м² - 1100 грн;\n- 2-кімнатна квартира до 60 м² - 1400 грн;\n- 3-кімнатна квартира до 75 м² - 1700 грн;\n- 4-кімнатна квартира до 100 м² - 2000 грн;\n- будинок, квартира понад 100 м² - від  20 грн за 1 м², за домовленістю.
     `,
     },
     {
@@ -272,11 +272,13 @@ let store = {
     closeImg: closeImg,
     instagramIcon: instagramIcon,
     facebookIcon: facebookIcon,
+    backgroundMain: backgroundMain,
   },
   header: {
     services: "Послуги",
     photo: "Фотогалерея",
     phone: "Телефон: +38 (099) 199-21-62",
+    orderCleaning: "Залишити заявку",
     logo: logo,
     instagramIcon: instagramIcon,
     facebookIcon: facebookIcon,

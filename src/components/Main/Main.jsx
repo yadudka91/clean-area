@@ -1,10 +1,14 @@
-import backgroundMain from "../../assets/images/backgroundImg2.png";
+// import backgroundMain from "../../assets/images/backgroundImg2.png";
 import classes from "./Main.module.css";
 
-const Main = () => {
+const Main = (props) => {
   return (
     <div className={classes.main}>
-      <img className={classes.backgroundImg} src={backgroundMain} alt="..." />
+      <img
+        className={classes.backgroundImg}
+        src={props.state.otherImg.backgroundMain}
+        alt="..."
+      />
 
       <div className={classes.cleanAreaTitle}>
         <span className={classes.cleanAreaTitleSpan}>Clean area</span>

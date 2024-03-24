@@ -10,7 +10,7 @@ const Futer = (props) => {
       </div>
       <div className={classes.futerText}>
         <p>Працюємо без вихідних</p>
-        <p>з 09.00 по 22.00</p>
+        <p>з 09.00 по 18.00</p>
       </div>
       <div className={classes.futerTextImg}>
         <p className={classes.futureImg}>

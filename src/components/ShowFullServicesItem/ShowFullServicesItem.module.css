@@ -72,7 +72,7 @@ div:empty {
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 4%;
-  text-align: start;
+  text-align: justify;
   color: black;
   font-size: 17px;
   font-family: "Times New Roman", Times, serif;
@@ -89,7 +89,7 @@ div:empty {
   font-size: 20px;
   font-style: italic;
   font-weight: 700;
-  text-align: left;
+  text-align: justify;
   white-space: pre-wrap;
 }
 

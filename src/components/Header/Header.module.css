@@ -1,5 +1,6 @@
 .header {
-  background: linear-gradient(0deg, #85c799 50%, #397b4e 100%);
+  /* background: linear-gradient(0deg, #85c799 50%, #397b4e 100%); */
+  background: rgb(11, 143, 51);
   display: flex;
   /* height: 45px; */
   padding-top: 30px;
@@ -18,7 +19,7 @@
 }
 
 .services {
-  margin-left: 70px;
+  margin-top: -10px;
   white-space: nowrap;
   width: auto;
 }
@@ -26,7 +27,6 @@
 .services li {
   display: inline;
   margin-left: 25px;
-  /* cursor: pointer; */
 }
 
 .services li a {
@@ -48,19 +48,28 @@
 }
 
 .mobileBtn {
-  width: 50px;
-  padding-right: 15px;
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 875px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .mobileBtn {
     display: block;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+    /* padding-right: 10px; */
+    margin-right: -875px;
+    /* position: relative; */
   }
 
   .mobileBtn img {
+    position: relative;
     cursor: pointer;
+    float: right;
+    margin-right: 5px;
 
     width: 40px;
     transition: 0.4s ease-in-out;
@@ -84,8 +93,6 @@
   .servicesBurger {
     display: flex;
     text-align: center;
-    /* padding-left: -61px; */
-    /* margin-left: -61px; */
   }
 
   .logoBurger {
@@ -102,7 +109,7 @@
     text-decoration: none;
     cursor: pointer;
     color: white;
-    margin-left: -61px;
+    /* margin-left: -61px; */
   }
 
   .logoBurger {
@@ -112,11 +119,11 @@
     margin-right: auto;
   }
   .logoBurger img {
-    margin-left: -115px;
+    margin-left: -60px;
   }
   .servicesBurger li a img {
-    /* padding-right: 15px; */
-    /* padding-left: 15px; */
+    padding-right: 15px;
+    padding-left: 15px;
     margin-bottom: 15px;
     width: 25px;
   }

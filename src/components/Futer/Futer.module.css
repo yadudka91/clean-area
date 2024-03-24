@@ -1,5 +1,6 @@
 .futerDiv {
-  background: linear-gradient(180deg, #85c799 50% 50%, #397b4e 100% 100%);
+  /* background: linear-gradient(180deg, #85c799 50% 50%, #397b4e 100% 100%); */
+  background: rgb(11, 143, 51);
   display: flex;
   height: 70px;
   padding-top: 30px;
@@ -44,4 +45,10 @@ p {
   .futerLicence {
     font-size: 8px;
   }
+}
+
+@media (max-width: 800px) {
+  /* .futerDiv {
+    background: rgb(11, 143, 51);
+  } */
 }

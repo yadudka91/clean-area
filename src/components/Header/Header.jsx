@@ -1,7 +1,4 @@
 import classes from "./Header.module.css";
-import facebookIcon from "../../assets/images/2021_Facebook_icon.svg.png";
-import instagramIcon from "../../assets/images/Instagram-Icon.png";
-import logoImg from "../../assets/images/noroot.png";
 
 import { Link } from "react-scroll";
 
@@ -9,7 +6,7 @@ const Header = (props) => {
   return (
     <div className={classes.header}>
       <div className={classes.logo}>
-        <a href="https://github.com/yadudka91/yadudka91.github.io.git">
+        <a>
           <img src={props.state.header.logo} alt="..." />
         </a>
       </div>
@@ -38,8 +35,20 @@ const Header = (props) => {
             </Link>
           </li>
           <li>
+            <Link
+              to="orderCleaning"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              {props.state.header.orderCleaning}
+            </Link>
+          </li>
+          <li>
             <a href="tel:+380991992162">{props.state.header.phone}</a>
           </li>
+
           <li>
             <a
               target="blank"
@@ -81,7 +90,7 @@ const Header = (props) => {
       >
         <ul>
           <div className={classes.logoBurger}>
-            <a href="https://clean-area.com.ua/">
+            <a>
               <img src={props.state.headerBurger.logo} alt="..." />
             </a>
           </div>
@@ -109,8 +118,20 @@ const Header = (props) => {
             </Link>
           </li>
           <li>
+            <Link
+              to="orderCleaning"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              {props.state.header.orderCleaning}
+            </Link>
+          </li>
+          <li>
             <a href="tel:+380991992162">{props.state.headerBurger.phone}</a>
           </li>
+
           <li>
             <a
               target="blank"

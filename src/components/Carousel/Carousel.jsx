@@ -83,12 +83,11 @@ const Carousel = (props) => {
           ))}
         </div>
         <div className={classes.reviewsTitle}>
-          Відгуки про нашу роботу Ви можете залишити за посиланням у
+          Залишити свій відгук у
           <a
-            href="viber://chat?number=+380993608079"
+            href="viber://chat?number=%2B380991992162"
             className={classes.cleanArea}
           >
-            {" "}
             Viber
           </a>
         </div>
