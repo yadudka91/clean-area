@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/clean-area/static/css/main.d27f1e3c.css",
-    "main.js": "/clean-area/static/js/main.fd48af69.js",
+    "main.css": "/clean-area/static/css/main.495201c9.css",
+    "main.js": "/clean-area/static/js/main.4db68465.js",
     "static/media/Carousel11.jpg": "/clean-area/static/media/Carousel11.00662d044b060596a238.jpg",
     "static/media/Carousel12.jpg": "/clean-area/static/media/Carousel12.26b5adce898b884af562.jpg",
     "static/media/Carousel21.jpg": "/clean-area/static/media/Carousel21.009519cdec8d4e6714a9.jpg",
-    "static/media/backgroundImg2.png": "/clean-area/static/media/backgroundImg2.27e48fb81383369351b6.png",
     "static/media/Instagram-Icon.png": "/clean-area/static/media/Instagram-Icon.3d6c8f9c6e4bb23ce95e.png",
     "static/media/Carousel16.jpg": "/clean-area/static/media/Carousel16.23cdeea5eec242b4ae13.jpg",
     "static/media/Carousel8.jpg": "/clean-area/static/media/Carousel8.8c9ed84c581454bf3741.jpg",
@@ -26,6 +25,7 @@
     "static/media/generalne4.jpg": "/clean-area/static/media/generalne4.8d75d23644b1d46bff4d.jpg",
     "static/media/Carousel14.jpg": "/clean-area/static/media/Carousel14.a07cc2deb13c58419c25.jpg",
     "static/media/kover3.jpg": "/clean-area/static/media/kover3.68cbec41cac07fbe1ea6.jpg",
+    "static/media/backgroundImg2.jpg": "/clean-area/static/media/backgroundImg2.5e9fdda0d1b555abdc13.jpg",
     "static/media/pidtrum4.jpg": "/clean-area/static/media/pidtrum4.2246f1e39ca1399edef7.jpg",
     "static/media/remont4.jpg": "/clean-area/static/media/remont4.10c5770148969b1d2625.jpg",
     "static/media/krislo3.jpg": "/clean-area/static/media/krislo3.a9db06e8fe628d00cbea.jpg",
@@ -50,11 +50,11 @@
     "static/media/calc.png": "/clean-area/static/media/calc.c01b9ef78a8647b7da9e.png",
     "static/media/clean.png": "/clean-area/static/media/clean.3101abec7fabc31c6480.png",
     "index.html": "/clean-area/index.html",
-    "main.d27f1e3c.css.map": "/clean-area/static/css/main.d27f1e3c.css.map",
-    "main.fd48af69.js.map": "/clean-area/static/js/main.fd48af69.js.map"
+    "main.495201c9.css.map": "/clean-area/static/css/main.495201c9.css.map",
+    "main.4db68465.js.map": "/clean-area/static/js/main.4db68465.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27f1e3c.css",
-    "static/js/main.fd48af69.js"
+    "static/css/main.495201c9.css",
+    "static/js/main.4db68465.js"
   ]
 }
