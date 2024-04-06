@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clean-area/static/css/main.ffbd8b91.css",
-    "main.js": "/clean-area/static/js/main.893cb2ac.js",
+    "main.css": "/clean-area/static/css/main.149f9001.css",
+    "main.js": "/clean-area/static/js/main.7d76f805.js",
     "static/media/Carousel3.jpg": "/clean-area/static/media/Carousel3.df4dedc3aa0232219fe1.jpg",
     "static/media/Carousel1.jpg": "/clean-area/static/media/Carousel1.aeb444eb549650c91040.jpg",
     "static/media/Carousel8.jpg": "/clean-area/static/media/Carousel8.5076c9407f86639d43f7.jpg",
@@ -37,11 +37,11 @@
     "static/media/calc.png": "/clean-area/static/media/calc.c01b9ef78a8647b7da9e.png",
     "static/media/clean.png": "/clean-area/static/media/clean.3101abec7fabc31c6480.png",
     "index.html": "/clean-area/index.html",
-    "main.ffbd8b91.css.map": "/clean-area/static/css/main.ffbd8b91.css.map",
-    "main.893cb2ac.js.map": "/clean-area/static/js/main.893cb2ac.js.map"
+    "main.149f9001.css.map": "/clean-area/static/css/main.149f9001.css.map",
+    "main.7d76f805.js.map": "/clean-area/static/js/main.7d76f805.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffbd8b91.css",
-    "static/js/main.893cb2ac.js"
+    "static/css/main.149f9001.css",
+    "static/js/main.7d76f805.js"
   ]
 }
