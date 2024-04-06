@@ -15,7 +15,7 @@ const Main = (props) => {
       </div>
       <div className={classes.cleanAreaText}>
         <span className={classes.cleanAreaTextSpan}>
-          Надаємо повний спектр клінінгових послу <br />в місті Чернівці та
+          Надаємо повний спектр клінінгових послуг <br />в місті Чернівці та
           Чернівецькій області
         </span>
       </div>

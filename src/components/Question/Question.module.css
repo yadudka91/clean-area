@@ -35,8 +35,11 @@
   transition: 0.4s ease-in-out;
 }
 
+.closeImg:active {
+  transform: rotate(0.5turn);
+}
+
 .closeImg:hover {
-  transform: rotate(180deg);
   cursor: pointer;
 }
 
