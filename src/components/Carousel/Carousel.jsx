@@ -63,8 +63,8 @@ const Carousel = (props) => {
       </div>
 
       <div className={classes.divTitle}>
-        Відгуки постійних клієнтів:
-        <div className={classes.reviewsTitle}>
+        Відгуки клієнтів:
+        {/* <div className={classes.reviewsTitle}>
           Клінінгова компанія
           <span className={classes.cleanArea}> Clean Area </span>виконала понад
           2000 замовлень
@@ -76,7 +76,7 @@ const Carousel = (props) => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         <div className={classes.reviewsBlokImg}>
           {props.state.imgReviews.map((el) => (
             <img src={el.imgReviews} alt="..." />

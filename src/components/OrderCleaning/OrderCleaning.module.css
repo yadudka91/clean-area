@@ -25,22 +25,6 @@ select {
   box-sizing: border-box;
 }
 
-/* .inputSubmit {
-  width: 100%;
-  background-color: #1aad46;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.inputSubmit::after {
-  background-color: white;
-} */
-
 .inputSubmit {
   border: 0;
   line-height: 2.5;
@@ -52,19 +36,9 @@ select {
   text-shadow: 1px 1px 1px #000;
   border-radius: 4px;
   background-color: #1aad46;
-  /* background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  ); */
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
-
-/* .inputSubmit:hover {
-  background-color: #1aad46;
-} */
 
 .inputSubmit:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),

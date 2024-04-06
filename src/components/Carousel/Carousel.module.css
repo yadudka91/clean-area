@@ -161,7 +161,7 @@
   grid-template-columns: repeat(4, 1fr);
   background-color: white;
   column-gap: 5px;
-  row-gap: 10px;
+  row-gap: 30px;
 
   box-sizing: border-box;
 }

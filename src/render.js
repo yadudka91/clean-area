@@ -9,6 +9,7 @@ import { sliderLeft } from "./state";
 import { setCurrentIndex } from "./state";
 import { sendMessageTelegram } from "./state";
 import { onMobileMenu } from "./state";
+import { onAccordion } from "./state";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -23,6 +24,7 @@ export let rerenderEntireTree = (state) => {
         setCurrentIndex={setCurrentIndex}
         sendMessageTelegram={sendMessageTelegram}
         onMobileMenu={onMobileMenu}
+        onAccordion={onAccordion}
       />
     </React.StrictMode>
   );

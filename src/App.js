@@ -9,6 +9,7 @@ import AboutCompany from "./components/AboutCompany/AboutCompany";
 import Work from "./components/Work/Work";
 import OrderCleaning from "./components/OrderCleaning/OrderCleaning";
 import CallButton from "./components/CallButton/CallButton";
+import Question from "./components/Question/Question";
 
 function App(props) {
   return (
@@ -34,12 +35,12 @@ function App(props) {
         setCurrentIndex={props.setCurrentIndex}
       />
       <Work state={props.state} />
+      <Question state={props.state} onAccordion={props.onAccordion} />
       <OrderCleaning
         sendMessageTelegram={props.sendMessageTelegram}
         state={props.state}
       />
       <CallButton state={props.state} />
-
       <Futer state={props.state} />
     </div>
   );

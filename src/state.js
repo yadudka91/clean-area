@@ -14,19 +14,6 @@ import carouselImg5 from "../src/assets/imagesCarousel/Carousel5.jpg";
 import carouselImg6 from "../src/assets/imagesCarousel/Carousel6.jpg";
 import carouselImg7 from "../src/assets/imagesCarousel/Carousel7.jpg";
 import carouselImg8 from "../src/assets/imagesCarousel/Carousel8.jpg";
-import carouselImg9 from "../src/assets/imagesCarousel/Carousel9.jpg";
-import carouselImg10 from "../src/assets/imagesCarousel/Carousel10.jpg";
-import carouselImg11 from "../src/assets/imagesCarousel/Carousel11.jpg";
-import carouselImg12 from "../src/assets/imagesCarousel/Carousel12.jpg";
-import carouselImg13 from "../src/assets/imagesCarousel/Carousel13.jpg";
-import carouselImg14 from "../src/assets/imagesCarousel/Carousel14.jpg";
-import carouselImg15 from "../src/assets/imagesCarousel/Carousel15.jpg";
-import carouselImg16 from "../src/assets/imagesCarousel/Carousel16.jpg";
-import carouselImg17 from "../src/assets/imagesCarousel/Carousel17.jpg";
-import carouselImg18 from "../src/assets/imagesCarousel/Carousel18.jpg";
-import carouselImg19 from "../src/assets/imagesCarousel/Carousel19.jpg";
-import carouselImg20 from "../src/assets/imagesCarousel/Carousel20.jpg";
-import carouselImg21 from "../src/assets/imagesCarousel/Carousel21.jpg";
 import iconHouse from "../src/assets/iconReviews/house.png";
 import iconClean from "../src/assets/iconReviews/clean.png";
 import imgReviews1 from "../src/assets/imgReviews/reviews1.jpg";
@@ -49,6 +36,7 @@ import facebookImg from "../src/assets/other/2021_Facebook_icon.svg.png";
 
 import menu from "../src/assets/other/menu.png";
 import closeImg from "../src/assets/images/close2.png";
+import closeImg2 from "../src/assets/images/close3.png";
 import instagramIcon from "../src/assets/images/Instagram-Icon.png";
 import facebookIcon from "../src/assets/images/2021_Facebook_icon.svg.png";
 import logo from "../src/assets/images/noroot.png";
@@ -76,7 +64,7 @@ let store = {
         text3:
           "- речі акуратно складаємо на горизонтальну поверхню;\n- знімаємо павутину зі стелі, стін;\n- пилососимо підлогу та килими;\n- від пилу та бруду очищаємо всі доступні поверхні (карнизи, міжкімнатні та вхідні двері, дверні ручки, вимикачі, розетки, фасади меблів, полички, підвіконня, люстри, плінтуса, підлога);\n- піднімаємо рухомі предмети та протираємо під ними (окрім великогабаритних меблів);\n- пилососимо м'які меблі та матраци;\n- очищуємо всі скляні та дзеркальні поверхні;\n- миємо кондиціонер зовні;\n- за допомогою парогенератора чистимо теплові радіатори;\n- змінюємо постіль (за бажанням замовника);\n- складаємо взуття та протираємо поличку;\n- миємо підлогу та протираємо плінтуси.",
       },
-      price: `Вартість:\n- від 80 грн за 1 м² (приміщення без меблів);\n- від 100 грн. за 1 м² (омебльоване приміщення).`,
+      price: `- від 80 грн за 1 м² (приміщення без меблів);\n- від 100 грн. за 1 м² (омебльоване приміщення).`,
     },
 
     {
@@ -91,7 +79,7 @@ let store = {
         paragraph3: "",
         text3: "",
       },
-      price: `Вартість:\n- від 80 грн. за 1 м².`,
+      price: `від 80 грн. за 1 м².`,
     },
     {
       id: 3,
@@ -107,8 +95,7 @@ let store = {
         paragraph3: "Під час прибирання ванної кімнати:",
         text3: `- протираємо від пилу фасади меблів;\n- миємо ванну/душову кабіну (без застосування засобів від водного нальоту, каменю, плісняви), унітаз та біде;\n- миємо раковину, змішувачі та натираємо їх до блиску;\n- очищуємо дзеркало;\n- пилососимо килимок та миємо підлогу.\n\nПослугу з підтримуючого прибирання надаємо лише клієнтам в яких проводилося генеральне прибирання!`,
       },
-      price: `Вартість:\n- 1-кімнатна квартира до 45 м² - 1100 грн;\n- 2-кімнатна квартира до 60 м² - 1400 грн;\n- 3-кімнатна квартира до 75 м² - 1700 грн;\n- 4-кімнатна квартира до 100 м² - 2000 грн;\n- будинок, квартира понад 100 м² - від  20 грн за 1 м², за домовленістю.
-    `,
+      price: `- 1-кімнатна квартира до 45 м² - 1100 грн;\n- 2-кімнатна квартира до 60 м² - 1400 грн;\n- 3-кімнатна квартира до 75 м² - 1700 грн;\n- 4-кімнатна квартира до 100 м² - 2000 грн;\n- будинок, квартира понад 100 м² - від  20 грн за 1 м², за домовленістю.`,
     },
     {
       id: 4,
@@ -122,8 +109,7 @@ let store = {
         paragraph3: "",
         text3: "",
       },
-      price: `Вартість:\n- від 130 грн за 1 м²;\n- від 170 грн за 1 м² (після ремонту).
-  `,
+      price: `- від 130 грн за 1 м²;\n- від 170 грн за 1 м² (після ремонту).`,
     },
     {
       id: 5,
@@ -153,8 +139,7 @@ let store = {
         paragraph3: "",
         text3: "",
       },
-      price: `- матрац дитячий (60*120) - 500 грн;\n- матрац односпальний (80*200) - 1000 грн;\n- матрац "King size" (180*200) - 1200 грн;\n- узголів’я ліжка - 400 грн;\n- узголів’я та каркас ліжка - 750 грн.\n\nВартість вказана за хімчистку матраца з однієї сторони. Хімчистка з обох сторін +25% до вказаної вартості.
-    `,
+      price: `- матрац дитячий (60*120) - 500 грн;\n- матрац односпальний (80*200) - 1000 грн;\n- матрац "King size" (180*200) - 1200 грн;\n- узголів’я ліжка - 400 грн;\n- узголів’я та каркас ліжка - 750 грн.\n\nВартість вказана за хімчистку матраца з однієї сторони. Хімчистка з обох сторін +25% до вказаної вартості.`,
     },
     {
       id: 7,
@@ -197,19 +182,6 @@ let store = {
     { id: 6, carouselImg: carouselImg6 },
     { id: 7, carouselImg: carouselImg7 },
     { id: 8, carouselImg: carouselImg8 },
-    { id: 9, carouselImg: carouselImg9 },
-    { id: 10, carouselImg: carouselImg10 },
-    { id: 11, carouselImg: carouselImg11 },
-    { id: 12, carouselImg: carouselImg12 },
-    { id: 13, carouselImg: carouselImg13 },
-    { id: 14, carouselImg: carouselImg14 },
-    { id: 15, carouselImg: carouselImg15 },
-    { id: 16, carouselImg: carouselImg16 },
-    { id: 17, carouselImg: carouselImg17 },
-    { id: 18, carouselImg: carouselImg18 },
-    { id: 19, carouselImg: carouselImg19 },
-    { id: 20, carouselImg: carouselImg20 },
-    { id: 21, carouselImg: carouselImg21 },
   ],
   currentIndex: 0,
   reviews: [
@@ -270,6 +242,7 @@ let store = {
     facebookIcon: facebookImg,
     menu: menu,
     closeImg: closeImg,
+    closeImg2: closeImg2,
     instagramIcon: instagramIcon,
     facebookIcon: facebookIcon,
     backgroundMain: backgroundMain,
@@ -292,6 +265,32 @@ let store = {
     facebookIcon: "",
   },
   showHeaderBurger: false,
+  question: [
+    {
+      q: `Від чого залежать розцінки на прибирання?`,
+      a: `Ціна прибирання залежить від багатьох факторів, зокрима: \n- площа квартири, будинку; \n- вид послуги, який Ви замовили;\n- Ваші індивідуальні побажання.`,
+    },
+    {
+      q: `Чи можна укласти договір на регулярне прибирання? Чи буде знижка?`,
+      a: `Так, Ви можете укласти з нами договір і ми надамо Вам знижку, як постійному клієнту. Всі подробиці можете дізнатися за телефоном.`,
+    },
+    {
+      q: `Чи є якісь виключення в прибиранні?`,
+      a: `\n- поверхні, де є ризик їх пошкодження не чистимо; \n- не миємо стіни, стелю, декоративний камінь; \n- чистимо лише доступні поверхні (без демонтажу частин меблів чи техніки); \n- не пересуваємо великогабаритні предмети (ліжка, шафи, холодильники, дивани тощо), посуд не миємо; \n- звертатись до працівників із проханням виконати, те що не входить в пакет замовлених послуг заборонено; \n- хімічні засоби та розхідні матеріали використовуються тільки компанії.`,
+    },
+
+    {
+      q: `Якщо ваш співробітник зламав що-небудь, хто несе відповідальність?`,
+      a: `У нашій компанії працюють професіонали з багаторічним стажем. Можемо запевнити Вас, що подібних ситуацій не виникне. Якщо ж все-таки трапиться - ми гарантуємо відшкодування шкоди, заподіяної нашим співробітником.`,
+    },
+
+    {
+      q: `Що робити, якщо після прибирання зникли цінні речі?`,
+      a: `Можете не турбуватися. Перед прийомом на роботу всі співробітники проходять перевірку, які дорожать своєю роботою. Якщо все-таки подібна ситуація трапиться і Ви будете сумніватися в чесності нашого співробітника - зв'яжіться з нами і ми приймемо необхідні заходи.`,
+    },
+  ],
+  accordion: null,
+  openId: null,
 };
 
 export default store;
@@ -299,13 +298,6 @@ export default store;
 export let onShowItem = (item) => {
   store.fullItem = item;
   store.showFullItem = !store.showFullItem;
-
-  rerenderEntireTree(store);
-};
-
-export let onMobileMenu = (item) => {
-  store.showHeaderBurger = !store.showHeaderBurger;
-  store.headerBurger = item;
 
   rerenderEntireTree(store);
 };
@@ -320,6 +312,21 @@ export let sliderLeft = (index, images) => {
   store.currentIndex === 0
     ? (store.currentIndex = images.length - 1)
     : (store.currentIndex = index - 1);
+  rerenderEntireTree(store);
+};
+
+export let onAccordion = (id) => {
+  // store.accordion == null ? (store.accordion = id) : (store.accordion = null);
+  if (id === store.accordion) store.accordion = null;
+  else store.accordion = id;
+
+  rerenderEntireTree(store);
+};
+
+export let onMobileMenu = (item) => {
+  store.showHeaderBurger = !store.showHeaderBurger;
+  store.headerBurger = item;
+
   rerenderEntireTree(store);
 };
 

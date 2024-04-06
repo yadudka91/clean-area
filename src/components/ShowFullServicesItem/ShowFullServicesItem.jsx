@@ -14,28 +14,28 @@ const ShowFullServicesItem = (props) => {
         <div className={classes.servicesTitle}>
           {props.state.fullItem.title}:
         </div>
+
+        <div className={classes.servicesPrice}>
+          {props.state.fullItem.price}
+        </div>
+
         <div className={classes.servicesDescriptionParagraph}>
           {props.state.fullItem.service.paragraph1}
         </div>
         <div className={classes.servicesDescription}>
           {props.state.fullItem.service.text1}
         </div>
-
         <div className={classes.servicesDescriptionParagraph}>
           {props.state.fullItem.service.paragraph2}
         </div>
         <div className={classes.servicesDescription}>
           {props.state.fullItem.service.text2}
         </div>
-
         <div className={classes.servicesDescriptionParagraph}>
           {props.state.fullItem.service.paragraph3}
         </div>
         <div className={classes.servicesDescription}>
           {props.state.fullItem.service.text3}
-        </div>
-        <div className={classes.servicesPrice}>
-          {props.state.fullItem.price}
         </div>
       </div>
     </div>
