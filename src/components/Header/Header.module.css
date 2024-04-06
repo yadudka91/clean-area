@@ -57,7 +57,7 @@
 
   .mobileBtn {
     display: block;
-    margin-right: -888px;
+    margin-right: -936px;
   }
 
   .mobileBtn img {
@@ -70,7 +70,7 @@
   }
 
   .mobileBtn img:active {
-    transform: rotate(1turn);
+    transform: rotate(0.5turn);
   }
 
   .services {
@@ -131,6 +131,6 @@
     transition: 1s;
   }
   .mobileBtn img:active {
-    transform: rotate(1turn);
+    transform: rotate(0.5turn);
   }
 }
