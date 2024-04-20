@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clean-area/static/css/main.bcad2eac.css",
-    "main.js": "/clean-area/static/js/main.3a8d390f.js",
+    "main.css": "/clean-area/static/css/main.430ea7b1.css",
+    "main.js": "/clean-area/static/js/main.1627b2c1.js",
     "static/media/Carousel3.jpg": "/clean-area/static/media/Carousel3.5f878becc5f403771f30.jpg",
     "static/media/Carousel8.jpg": "/clean-area/static/media/Carousel8.209204850f047efaa64e.jpg",
     "static/media/Carousel5.jpg": "/clean-area/static/media/Carousel5.a4f790a399e01d67b8b4.jpg",
@@ -26,6 +26,7 @@
     "static/media/reviews4.jpg": "/clean-area/static/media/reviews4.af7b6f29336174c435fc.jpg",
     "static/media/Instagram-Icon.png": "/clean-area/static/media/Instagram-Icon.ab09872842e9a1f9046a.png",
     "static/media/oplata.png": "/clean-area/static/media/oplata.322a0ae16f923c410253.png",
+    "static/media/backgroundImg3.jpg": "/clean-area/static/media/backgroundImg3.55cefccf545ae2ce46cd.jpg",
     "static/media/reviews8.jpg": "/clean-area/static/media/reviews8.a2e6e189ba3e77996dac.jpg",
     "static/media/reviews6.jpg": "/clean-area/static/media/reviews6.62de2aad28c708333b45.jpg",
     "static/media/zajavka.png": "/clean-area/static/media/zajavka.b47bb436e90aaa5eac6f.png",
@@ -33,11 +34,11 @@
     "static/media/calc.png": "/clean-area/static/media/calc.85fe07e1f12ce8249c24.png",
     "static/media/2021_Facebook_icon.svg.png": "/clean-area/static/media/2021_Facebook_icon.svg.5c1cdb78cd3c13c5b024.png",
     "index.html": "/clean-area/index.html",
-    "main.bcad2eac.css.map": "/clean-area/static/css/main.bcad2eac.css.map",
-    "main.3a8d390f.js.map": "/clean-area/static/js/main.3a8d390f.js.map"
+    "main.430ea7b1.css.map": "/clean-area/static/css/main.430ea7b1.css.map",
+    "main.1627b2c1.js.map": "/clean-area/static/js/main.1627b2c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcad2eac.css",
-    "static/js/main.3a8d390f.js"
+    "static/css/main.430ea7b1.css",
+    "static/js/main.1627b2c1.js"
   ]
 }
