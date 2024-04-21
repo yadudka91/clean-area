@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/clean-area/static/css/main.430ea7b1.css",
-    "main.js": "/clean-area/static/js/main.1627b2c1.js",
+    "main.js": "/clean-area/static/js/main.5ca6897b.js",
     "static/media/Carousel3.jpg": "/clean-area/static/media/Carousel3.5f878becc5f403771f30.jpg",
     "static/media/Carousel8.jpg": "/clean-area/static/media/Carousel8.209204850f047efaa64e.jpg",
     "static/media/Carousel5.jpg": "/clean-area/static/media/Carousel5.a4f790a399e01d67b8b4.jpg",
     "static/media/backgroundImg2.jpg": "/clean-area/static/media/backgroundImg2.a3dfd799c68576d882ee.jpg",
     "static/media/Carousel1.jpg": "/clean-area/static/media/Carousel1.76113ae8eef6d26ea06c.jpg",
     "static/media/Carousel2.jpg": "/clean-area/static/media/Carousel2.fd78372656215fae31a7.jpg",
-    "static/media/generalne4.jpg": "/clean-area/static/media/generalne4.2b3b9a34fd1bddd88df9.jpg",
+    "static/media/generalne4.jpg": "/clean-area/static/media/generalne4.d0f5dd03d9dddf7d106e.jpg",
     "static/media/Carousel7.jpg": "/clean-area/static/media/Carousel7.5953d4b6f0944040717f.jpg",
-    "static/media/kover3.jpg": "/clean-area/static/media/kover3.014b4273b1cc80e83ddb.jpg",
+    "static/media/kover3.jpg": "/clean-area/static/media/kover3.1fb6ddfe1f305a2c4e1d.jpg",
     "static/media/Carousel4.jpg": "/clean-area/static/media/Carousel4.425ec835d529a33ac837.jpg",
-    "static/media/pidtrum4.jpg": "/clean-area/static/media/pidtrum4.36889d9784b3979b9a97.jpg",
-    "static/media/matrac3.jpg": "/clean-area/static/media/matrac3.d65e04c533b878aa6890.jpg",
-    "static/media/divan3.jpg": "/clean-area/static/media/divan3.23276bc99ceb00a6fad6.jpg",
-    "static/media/remont4.jpg": "/clean-area/static/media/remont4.6a132bb5824b6e3c8a97.jpg",
-    "static/media/krislo3.jpg": "/clean-area/static/media/krislo3.d84e02007ea192eab8b3.jpg",
-    "static/media/vikna4.jpg": "/clean-area/static/media/vikna4.2c02e09c916a7afea0e3.jpg",
+    "static/media/pidtrum4.jpg": "/clean-area/static/media/pidtrum4.8bcc4c3acf64f1017784.jpg",
+    "static/media/matrac3.jpg": "/clean-area/static/media/matrac3.4bdac14a411c998dfb9f.jpg",
+    "static/media/divan3.jpg": "/clean-area/static/media/divan3.75bcead967c16513c7db.jpg",
+    "static/media/krislo3.jpg": "/clean-area/static/media/krislo3.b3d6b261d66596789f20.jpg",
+    "static/media/remont4.jpg": "/clean-area/static/media/remont4.ec30ade9945d71fa93f1.jpg",
+    "static/media/vikna4.jpg": "/clean-area/static/media/vikna4.051c60b45a2bdb24828e.jpg",
     "static/media/reviews2.jpg": "/clean-area/static/media/reviews2.9f8a4cd7c96573561637.jpg",
     "static/media/Carousel6.jpg": "/clean-area/static/media/Carousel6.887fbd92473db40ec5df.jpg",
     "static/media/reviews1.jpg": "/clean-area/static/media/reviews1.1460907d99a194c7a711.jpg",
@@ -35,10 +35,10 @@
     "static/media/2021_Facebook_icon.svg.png": "/clean-area/static/media/2021_Facebook_icon.svg.5c1cdb78cd3c13c5b024.png",
     "index.html": "/clean-area/index.html",
     "main.430ea7b1.css.map": "/clean-area/static/css/main.430ea7b1.css.map",
-    "main.1627b2c1.js.map": "/clean-area/static/js/main.1627b2c1.js.map"
+    "main.5ca6897b.js.map": "/clean-area/static/js/main.5ca6897b.js.map"
   },
   "entrypoints": [
     "static/css/main.430ea7b1.css",
-    "static/js/main.1627b2c1.js"
+    "static/js/main.5ca6897b.js"
   ]
 }
