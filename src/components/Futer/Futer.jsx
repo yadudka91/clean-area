@@ -18,7 +18,7 @@ const Futer = (props) => {
             target="blank"
             href="https://www.facebook.com/cleararea.chernivtsi"
           >
-            <img src={props.state.otherImg.facebookIcon} alt="..." />
+            <img src={props.state.header.facebookIcon} alt="..." />
           </a>
         </p>
         <p className={classes.futureImg}>
@@ -26,7 +26,7 @@ const Futer = (props) => {
             target="blank"
             href="https://www.instagram.com/clean_area_chernivtsi/?r=nametag"
           >
-            <img src={props.state.otherImg.instagramIcon} alt="..." />
+            <img src={props.state.header.instagramIcon} alt="..." />
           </a>
         </p>
       </div>

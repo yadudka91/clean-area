@@ -2,13 +2,12 @@
   position: relative;
   text-align: center;
   color: white;
-  background-color: black;
 }
 
 .backgroundImg {
   background-size: cover;
-  opacity: 0.5;
-  height: 100%;
+  /* height: 100%; */
+  height: auto;
 }
 
 .cleanAreaTitle {
@@ -21,7 +20,6 @@
 
 .main .cleanAreaTitle .cleanAreaTitleSpan {
   font-size: 44px;
-  font-family: "Times New Roman", Times, serif;
   text-align: left;
   font-style: italic;
   font-weight: 900;
@@ -40,7 +38,6 @@
   text-align: left;
   font-weight: 400;
   font-style: normal;
-  font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 560px) {

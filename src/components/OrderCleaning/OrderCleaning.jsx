@@ -55,7 +55,6 @@ const OrderCleaning = (props) => {
             className={classes.inputSubmit}
             name="send"
             type="submit"
-            // value="Відправити"
             value={props.state.workItem.send}
           ></input>
           <div className={classes.formSendResult}>

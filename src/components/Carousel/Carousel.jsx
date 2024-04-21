@@ -64,19 +64,6 @@ const Carousel = (props) => {
 
       <div className={classes.divTitle}>
         Відгуки клієнтів:
-        {/* <div className={classes.reviewsTitle}>
-          Клінінгова компанія
-          <span className={classes.cleanArea}> Clean Area </span>виконала понад
-          2000 замовлень
-          <div className={classes.reviewsDiv}>
-            {props.state.reviews.map((el) => (
-              <div className={classes.reviewsBlock}>
-                <img className={classes.reviewsIcon} src={el.icon} alt="..." />
-                <div className={classes.reviewsText}>{el.title}</div>
-              </div>
-            ))}
-          </div>
-        </div> */}
         <div className={classes.reviewsBlokImg}>
           {props.state.imgReviews.map((el) => (
             <img src={el.imgReviews} alt="..." />

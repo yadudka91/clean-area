@@ -12,7 +12,6 @@
   padding-left: 10px;
   padding-right: 10px;
   font-size: 32px;
-  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 900;
   color: #1aad46;
@@ -115,7 +114,6 @@
 .reviewsTitle {
   text-align: start;
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
   color: black;
   box-sizing: border-box;
   font-style: normal;
@@ -125,7 +123,6 @@
 
 .cleanArea {
   color: #1aad46;
-  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 700;
   text-decoration: none;
@@ -136,23 +133,6 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   column-gap: 15px;
-}
-
-.reviewsBlock {
-  display: inline-flex;
-}
-
-.reviewsIcon {
-  height: 30px;
-  width: 30px;
-  padding: 2px;
-}
-
-.reviewsText {
-  background-color: #1aad46;
-  color: white;
-  border-radius: 5px;
-  padding: 2px;
 }
 
 .reviewsBlokImg {

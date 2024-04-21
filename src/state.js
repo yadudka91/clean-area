@@ -14,8 +14,7 @@ import carouselImg5 from "../src/assets/imagesCarousel/Carousel5.jpg";
 import carouselImg6 from "../src/assets/imagesCarousel/Carousel6.jpg";
 import carouselImg7 from "../src/assets/imagesCarousel/Carousel7.jpg";
 import carouselImg8 from "../src/assets/imagesCarousel/Carousel8.jpg";
-import iconHouse from "../src/assets/iconReviews/house.png";
-import iconClean from "../src/assets/iconReviews/clean.png";
+
 import imgReviews1 from "../src/assets/imgReviews/reviews1.jpg";
 import imgReviews2 from "../src/assets/imgReviews/reviews2.jpg";
 import imgReviews3 from "../src/assets/imgReviews/reviews3.jpg";
@@ -31,9 +30,6 @@ import imgWork from "../src/assets/imgWork/work.png";
 import imgPayment from "../src/assets/imgWork/oplata.png";
 import callButtonPng from "../src/assets/other/telephone-call.png";
 
-import instagramImg from "../src/assets/other/Instagram-Icon.png";
-import facebookImg from "../src/assets/other/2021_Facebook_icon.svg.png";
-
 import menu from "../src/assets/other/menu.png";
 import closeImg from "../src/assets/images/close2.png";
 import closeImg2 from "../src/assets/images/close3.png";
@@ -41,6 +37,7 @@ import instagramIcon from "../src/assets/images/Instagram-Icon.png";
 import facebookIcon from "../src/assets/images/2021_Facebook_icon.svg.png";
 import logo from "../src/assets/images/noroot.png";
 import backgroundMain from "../src/assets/other/backgroundImg2.jpg";
+import backgroundMain2 from "../src/assets/other/backgroundImg3.jpg";
 import { rerenderEntireTree } from "./render";
 
 const TELEGRAM_BOT_TOKEN = "7153986051:AAFNOCJEx5RNLUHNFImkBsG_rMMaWmXRh8g";
@@ -184,14 +181,7 @@ let store = {
     { id: 8, carouselImg: carouselImg8 },
   ],
   currentIndex: 0,
-  reviews: [
-    { id: 1, icon: iconHouse, title: "680+ прибраних осель" },
-    {
-      id: 2,
-      icon: iconClean,
-      title: "1920+ чистих диванів, крісел та матраців",
-    },
-  ],
+
   imgReviews: [
     { id: 1, imgReviews: imgReviews1 },
     { id: 2, imgReviews: imgReviews2 },
@@ -209,21 +199,21 @@ let store = {
       title: "Замовлення",
       text: "Залиште заявку в зручний для Вас спосіб",
     },
-    // { id: 2, icon: imgVector, title: "", text: "" },
+
     {
       id: 3,
       icon: imgCalc,
       title: "Розрахунок",
       text: "Наш менеджер приїде в зручний для Вас час, зробить точний розрахунок вартості та узгодить дату прибирання",
     },
-    // { id: 4, icon: imgVector, title: "", text: "" },
+
     {
       id: 5,
       icon: imgWork,
       title: "Прибирання",
       text: "Наші фахівці приїдуть до Вас на узгоджену дату, час та виконають замовлення",
     },
-    // { id: 6, icon: imgVector, title: "", text: "" },
+
     {
       id: 7,
       icon: imgPayment,
@@ -238,14 +228,13 @@ let store = {
   },
   otherImg: {
     callButton: callButtonPng,
-    instagramIcon: instagramImg,
-    facebookIcon: facebookImg,
     menu: menu,
     closeImg: closeImg,
     closeImg2: closeImg2,
     instagramIcon: instagramIcon,
     facebookIcon: facebookIcon,
     backgroundMain: backgroundMain,
+    backgroundMain2: backgroundMain2,
   },
   header: {
     services: "Послуги",
@@ -316,7 +305,6 @@ export let sliderLeft = (index, images) => {
 };
 
 export let onAccordion = (id) => {
-  // store.accordion == null ? (store.accordion = id) : (store.accordion = null);
   if (id === store.accordion) store.accordion = null;
   else store.accordion = id;
 
