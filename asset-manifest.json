@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/clean-area/static/css/main.430ea7b1.css",
-    "main.js": "/clean-area/static/js/main.5ca6897b.js",
+    "main.js": "/clean-area/static/js/main.264dc6a4.js",
     "static/media/Carousel3.jpg": "/clean-area/static/media/Carousel3.5f878becc5f403771f30.jpg",
     "static/media/Carousel8.jpg": "/clean-area/static/media/Carousel8.209204850f047efaa64e.jpg",
     "static/media/Carousel5.jpg": "/clean-area/static/media/Carousel5.a4f790a399e01d67b8b4.jpg",
     "static/media/backgroundImg2.jpg": "/clean-area/static/media/backgroundImg2.a3dfd799c68576d882ee.jpg",
+    "static/media/matrac3.jpg": "/clean-area/static/media/matrac3.4870d9bd80345ed1ecfc.jpg",
     "static/media/Carousel1.jpg": "/clean-area/static/media/Carousel1.76113ae8eef6d26ea06c.jpg",
     "static/media/Carousel2.jpg": "/clean-area/static/media/Carousel2.fd78372656215fae31a7.jpg",
     "static/media/generalne4.jpg": "/clean-area/static/media/generalne4.d0f5dd03d9dddf7d106e.jpg",
@@ -13,7 +14,6 @@
     "static/media/kover3.jpg": "/clean-area/static/media/kover3.1fb6ddfe1f305a2c4e1d.jpg",
     "static/media/Carousel4.jpg": "/clean-area/static/media/Carousel4.425ec835d529a33ac837.jpg",
     "static/media/pidtrum4.jpg": "/clean-area/static/media/pidtrum4.8bcc4c3acf64f1017784.jpg",
-    "static/media/matrac3.jpg": "/clean-area/static/media/matrac3.4bdac14a411c998dfb9f.jpg",
     "static/media/divan3.jpg": "/clean-area/static/media/divan3.75bcead967c16513c7db.jpg",
     "static/media/krislo3.jpg": "/clean-area/static/media/krislo3.b3d6b261d66596789f20.jpg",
     "static/media/remont4.jpg": "/clean-area/static/media/remont4.ec30ade9945d71fa93f1.jpg",
@@ -35,10 +35,10 @@
     "static/media/2021_Facebook_icon.svg.png": "/clean-area/static/media/2021_Facebook_icon.svg.5c1cdb78cd3c13c5b024.png",
     "index.html": "/clean-area/index.html",
     "main.430ea7b1.css.map": "/clean-area/static/css/main.430ea7b1.css.map",
-    "main.5ca6897b.js.map": "/clean-area/static/js/main.5ca6897b.js.map"
+    "main.264dc6a4.js.map": "/clean-area/static/js/main.264dc6a4.js.map"
   },
   "entrypoints": [
     "static/css/main.430ea7b1.css",
-    "static/js/main.5ca6897b.js"
+    "static/js/main.264dc6a4.js"
   ]
 }
